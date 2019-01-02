@@ -1,0 +1,9 @@
+{
+    "brackets-eslint.useLocalESLint": true,
+    "fonts.fontSize": "16px",
+    "brackets-eslint.gutterMarks": true,
+    "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
+    "extensions.default.disabled": [
+        "C:/Program Files (x86)/Brackets/www/extensions/default/JSLint"
+    ]
+}
