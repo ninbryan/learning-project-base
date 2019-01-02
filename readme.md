@@ -3,11 +3,11 @@
 - disable JSLint
 - revise ESLint ruleset (ES2015 browser support)
 - include SASS compiler in gulp task runner
- - include source map?
+ - include source map
 
 ## Environnment Steps 
 
-### for windows
+### for Windows
 
 1. Download [Chocolatey](https://github.com/ninbryan/computer-setup/blob/master/windows-powershell-install-chocolatey.md)
     - instructions include installing NodeJS & Git + Git Bash
@@ -29,3 +29,17 @@
 
 TBD
 
+## Gulp Tasks
+
+- `npm run gulp -- -T` for list of tasks
+- `npx gulp -T` for list of tasks
+- `npx gulp sass:watch` to watch scss file changes
+
+## Results
+
+Due to Brackets having it's own live preview implementation,
+the sourcemap and source content do not update unless you reload the browser page.
+
+If visual change is the necessary requirement, this works fine.
+
+gulp-sass still dependently installs node-sass, but I want to use dart-sass implementation. haven't confirmed if implementation works as intended.

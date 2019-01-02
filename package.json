@@ -1,6 +1,10 @@
 {
     "name": "learning-project-base",
     "private": true,
+    "scripts": {
+        "gulp": "gulp",
+        "watch": "gulp"
+    },
     "devDependencies": {
         "eslint": "5.11.1",
         "gulp": "4.0.0",
